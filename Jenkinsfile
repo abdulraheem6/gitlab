@@ -2,9 +2,9 @@ pipeline {
     stages {
         stage('stage 1') {
             steps {
-                script{
-                    //do your things of first pipeline stage
-                }
+             
+                sh 'mvn --version'
+           
             }
         }
         stage('stage 2') {
